@@ -1,5 +1,6 @@
-import curses, time
-from curses import A_BOLD, A_UNDERLINE, wrapper
+import curses
+import time
+from curses import wrapper
 
 def main(stdscr):
     curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLUE)
